@@ -1,0 +1,16 @@
+{
+  "default_folder": "/home/user/Pictures",
+  "monday": [
+    {
+      "start": "14:00",
+      "end": "16:00",
+      "folder": "/home/user/college/math"
+    }
+  ],
+  "tuesday": [],
+  "wednesday": [],
+  "thursday": [],
+  "friday": [],
+  "saturday": [],
+  "sunday": []
+}

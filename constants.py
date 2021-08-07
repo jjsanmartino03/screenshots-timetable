@@ -1,9 +1,9 @@
 WEEKDAYS = [
-  "mondays",
-  "tuesdays",
-  "wednesdays",
-  "thursdays",
-  "fridays",
-  "saturdays",
-  "sundays"
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday"
   ]
