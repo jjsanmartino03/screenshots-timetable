@@ -1,3 +1,4 @@
 screen-venv/
 config.json
 py_screenshot.sh
+__pycache__/
