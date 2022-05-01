@@ -34,7 +34,7 @@ for time in times_from_today:
   if time_started and time_in_progress:
     folder_found = True
 
-    filename = now.strftime('%H:%M:%S %d-%m-%Y') + '.png'
+    filename = 'S ' + now.strftime('%d-%m-%Y %H:%M:%S') + '.png'
     
     output_dir = pathlib.Path(time['folder'])
 
@@ -46,7 +46,7 @@ for time in times_from_today:
     os.system(f"gnome-screenshot -w -f '{output_filepath}'")
 
 if not folder_found:
-  filename = 'S ' + now.strftime('%H:%M:%S %d-%m-%Y') + '.png'
+  filename = 'S ' + now.strftime('%d-%m-%Y %H:%M:%S') + '.png'
     
   output_dir = pathlib.Path(data['default_folder'])
 
